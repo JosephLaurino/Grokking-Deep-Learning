@@ -1,6 +1,6 @@
 weights = [0.1, 0.2, 0]
 
-def neaural_network(input, weights):
+def neural_network(input, weights):
     pred = w_sum(input,weights)
     return pred
 
@@ -16,6 +16,6 @@ wlrec = [0.65, 0.8, 0.8, 0.9]
 nfans = [1.2, 1.3, 0.5, 1.0]
 
 input = [toes[0], wlrec[0], nfans[0]]
-pred = neaural_network(input, weights)
+pred = neural_network(input, weights)
 print(pred)
 
