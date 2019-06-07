@@ -1,0 +1,4 @@
+6/5/2019:
+- create a choco install script for
+    - visual studio code
+    - python
